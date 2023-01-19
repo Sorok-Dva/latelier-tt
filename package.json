@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint --fix --cache .",
     "debug:express": "DEBUG=express:* node bin/www",
-    "start": "npm run lint && node bin/www",
+    "start": "node bin/www",
     "test": "ENV=test mocha tests/*.js --timeout 5000 --exit"
   },
   "dependencies": {
