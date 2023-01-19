@@ -27,6 +27,6 @@ ENV=test npm run test
 
 Route | Method | Query String | Body | Description
 -|-|-|-|-
-`/player/list` | get | - | - | Sort players list 
-`/player/id/:id` | get | - | - | Retrieve player's profile by id
-`/player/stats` | get | - | - | Retrieve players stats
+`/players` | get | - | - | Sort players list 
+`/players/id/:id` | get | - | - | Retrieve player's profile by id
+`/players/stats` | get | - | - | Retrieve players stats
