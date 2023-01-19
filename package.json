@@ -9,6 +9,7 @@
     "test": "ENV=test mocha tests/*.js --timeout 5000 --exit"
   },
   "dependencies": {
+    "debug": "^4.3.4",
     "dotenv": "^16.0.3",
     "express": "~4.18.2",
     "express-validator": "^6.14.2",
